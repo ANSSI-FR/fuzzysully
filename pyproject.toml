@@ -1,0 +1,40 @@
+[project]
+name = "fuzzysully"
+description = "OPCUA fuzzer based on Fuzzowski"
+authors = [{ name = "Quarkslab", email = "contact@quarkslab.com" }]
+version = "0.1.1"
+requires-python = ">=3.10"
+dependencies = [
+    # fuzzowski requirements
+    "prompt-toolkit>=3.0.0,<4.0.0",
+    "attrs",
+    "pygments",
+    "pydot",
+    # fuzzysully requirements
+    "rich-click",
+    # asyncua requirements
+    "aiofiles",
+    "aiosqlite",
+    "python-dateutil",
+    "pytz",
+    "cryptography>40.0.1",
+    "sortedcontainers",
+    "pyOpenSSL",
+    "typing-extensions"
+]
+
+[project.scripts]
+fuzzowski = "fuzzowski.__main__:main"
+fuzzysully = "fuzzysully.__main__:main"
+uaread = 'asyncua.tools:uaread'
+uals = 'asyncua.tools:uals'
+uabrowse = 'asyncua.tools:uals'
+uawrite = 'asyncua.tools:uawrite'
+uasubscribe = 'asyncua.tools:uasubscribe'
+uahistoryread = 'asyncua.tools:uahistoryread'
+uaclient = 'asyncua.tools:uaclient'
+uaserver = 'asyncua.tools:uaserver'
+uadiscover = 'asyncua.tools:uadiscover'
+uacall = 'asyncua.tools:uacall'
+uageneratestructs = 'asyncua.tools:uageneratestructs'
+

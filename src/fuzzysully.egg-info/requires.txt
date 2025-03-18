@@ -1,0 +1,13 @@
+prompt-toolkit<4.0.0,>=3.0.0
+attrs
+pygments
+pydot
+rich-click
+aiofiles
+aiosqlite
+python-dateutil
+pytz
+cryptography>40.0.1
+sortedcontainers
+pyOpenSSL
+typing-extensions

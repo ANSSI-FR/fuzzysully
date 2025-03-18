@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: fuzzysully
+Version: 0.1.1
+Summary: OPCUA fuzzer based on Fuzzowski
+Author-email: Quarkslab <contact@quarkslab.com>
+Requires-Python: >=3.10
+Requires-Dist: prompt-toolkit<4.0.0,>=3.0.0
+Requires-Dist: attrs
+Requires-Dist: pygments
+Requires-Dist: pydot
+Requires-Dist: rich-click
+Requires-Dist: aiofiles
+Requires-Dist: aiosqlite
+Requires-Dist: python-dateutil
+Requires-Dist: pytz
+Requires-Dist: cryptography>40.0.1
+Requires-Dist: sortedcontainers
+Requires-Dist: pyOpenSSL
+Requires-Dist: typing-extensions

@@ -1,0 +1,14 @@
+[console_scripts]
+fuzzowski = fuzzowski.__main__:main
+fuzzysully = fuzzysully.__main__:main
+uabrowse = asyncua.tools:uals
+uacall = asyncua.tools:uacall
+uaclient = asyncua.tools:uaclient
+uadiscover = asyncua.tools:uadiscover
+uageneratestructs = asyncua.tools:uageneratestructs
+uahistoryread = asyncua.tools:uahistoryread
+uals = asyncua.tools:uals
+uaread = asyncua.tools:uaread
+uaserver = asyncua.tools:uaserver
+uasubscribe = asyncua.tools:uasubscribe
+uawrite = asyncua.tools:uawrite
