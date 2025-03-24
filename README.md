@@ -20,7 +20,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md)
 
 Setup
 -----
-FuzzySully is a Python package. It requires at least Python 3.10. 
+FuzzySully is a Python package. It requires at least Python 3.11. 
 
 1. Create a virtual environment: `python3 -m venv fuzzysully-venv`
 2. Activate your virtual environment: `. ./fuzzysully-venv/bin/activate`
