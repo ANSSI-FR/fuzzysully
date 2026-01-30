@@ -1,11 +1,23 @@
 FuzzySully - Fuzzowski-based OPCUA fuzzer
 =========================================
-   
+
+<img src="https://www.sgdsn.gouv.fr/files/styles/ds_image_paragraphe/public/files/Notre_Organisation/logo_anssi.png" alt="ANSSI logo" width="30%">
+
+## French Cybersecurity Agency (ANSSI)
+
+![badge_repo](https://img.shields.io/badge/ANSSI--FR-fuzzysully-white)
+[![category_badge_doctrinal](https://img.shields.io/badge/category-doctrinal-%23e9c7e7)](https://github.com/ANSSI-FR#types-de-projets)
+[![openess_badge_C](https://img.shields.io/badge/code.gouv.fr-published-orange)](https://documentation.ouvert.numerique.gouv.fr/les-parcours-de-documentation/ouvrir-un-projet-num%C3%A9rique/#niveau-ouverture)
+
+*This projet is managed by [ANSSI](https://cyber.gouv.fr/).To find out more, you can go to [page](https://cyber.gouv.fr/open-source-lanssi) dedicated to the ANSSI open source strategy. You can also click on the badges to learn more about their meaning*
+
+
 Introduction
 ------------
 <span style="color:red">**Fuzzing should never be conducted on production equipment or systems. This testing technique can cause unexpected behavior, system crashes, data corruption, or security vulnerabilities. Always perform fuzzing in a controlled, isolated environment to ensure the safety and stability of production systems.**</span>
 
 FuzzySully is an OPC UA fuzzer built upon Fuzzowski. It is a specialized testing tool designed to identify vulnerabilities and bugs in OPC UA (Open Platform Communications Unified Architecture) implementations. These fuzzers typically operate by generating and sending a large number of malformed or unexpected messages to an OPC UA server or client, with the goal of triggering unexpected behavior or crashes.
+
 
 Security
 -----
