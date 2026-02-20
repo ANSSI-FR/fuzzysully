@@ -9,8 +9,7 @@ FuzzySully - Fuzzowski-based OPCUA fuzzer
 [![category_badge_doctrinal](https://img.shields.io/badge/category-doctrinal-%23e9c7e7)](https://github.com/ANSSI-FR#types-de-projets)
 [![openess_badge_C](https://img.shields.io/badge/code.gouv.fr-published-orange)](https://documentation.ouvert.numerique.gouv.fr/les-parcours-de-documentation/ouvrir-un-projet-num%C3%A9rique/#niveau-ouverture)
 
-*This projet is managed by [ANSSI](https://cyber.gouv.fr/).To find out more, you can go to [page](https://cyber.gouv.fr/open-source-lanssi) dedicated to the ANSSI open source strategy. You can also click on the badges to learn more about their meaning*
-
+*This projet is managed by [ANSSI](https://cyber.gouv.fr/).To find out more, you can visit the [page]([https://cyber.gouv.fr/open-source-lanssi](https://cyber.gouv.fr/enjeux-technologiques/open-source/)) dedicated to ANSSI’s open-source strategy. You can also click on the badges to learn more about their meaning* 
 
 Introduction
 ------------
